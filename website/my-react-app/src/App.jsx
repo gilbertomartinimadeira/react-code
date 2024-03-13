@@ -1,3 +1,5 @@
+import MyForm from "./MyForm";
+
 
 function App() {
 
@@ -28,8 +30,21 @@ function App() {
       <UserGreeting isLoggedIn={true}/> */}
       {/* {fruits.length > 0 && <List items={fruits} category="Fruits"/> }
       {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/> } */}
+
+      {/* <BButton />    
+      <ProfilePicture /> */}
+
+      {/* hook is a special function */}
+
+      {/* <MyComponent /> */}
+      
+      {/* <Counter/> */}
+
+      <MyForm />
     </>
   );
 }
 
 export default App
+
+// 1:58:30
