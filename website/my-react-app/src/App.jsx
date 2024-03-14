@@ -1,3 +1,4 @@
+import ColorPicker from "./ColorPicker";
 import MyForm from "./MyForm";
 
 
@@ -20,6 +21,15 @@ function App() {
 // ];
   return(
     <>   
+
+      <ColorPicker />
+
+
+
+
+
+
+
       {/* <Student name="Gilberto" age={40} isStudent={true}/>
       <Student name="Patrick" age={42} isStudent={false}/>
       <Student name="Squidward" age={50} isStudent={false}/>
@@ -40,7 +50,10 @@ function App() {
       
       {/* <Counter/> */}
 
-      <MyForm />
+      {/* <MyForm /> */}
+
+
+
     </>
   );
 }
