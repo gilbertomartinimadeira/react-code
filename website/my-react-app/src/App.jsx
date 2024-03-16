@@ -1,6 +1,3 @@
-import ColorPicker from "./ColorPicker";
-import MyForm from "./MyForm";
-
 
 function App() {
 
@@ -21,14 +18,8 @@ function App() {
 // ];
   return(
     <>   
-
-      <ColorPicker />
-
-
-
-
-
-
+      {/* <Cars/> */}
+      {/* <ColorPicker /> */}
 
       {/* <Student name="Gilberto" age={40} isStudent={true}/>
       <Student name="Patrick" age={42} isStudent={false}/>
@@ -48,11 +39,14 @@ function App() {
 
       {/* <MyComponent /> */}
       
-      {/* <Counter/> */}
+      {/* <Counter /> */}
 
       {/* <MyForm /> */}
 
 
+      {/* <Foods /> */}
+
+      {/* <CarCrud /> */}
 
     </>
   );
