@@ -1,3 +1,5 @@
+import NewComponent from "./NewComponent";
+import SizeTracker from "./SizeTracker";
 
 function App() {
 
@@ -48,6 +50,9 @@ function App() {
 
       {/* <CarCrud /> */}
 
+      {/* <NewComponent /> */}
+
+      {/* <SizeTracker /> */}
     </>
   );
 }
