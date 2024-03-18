@@ -12,11 +12,11 @@ export default function DigitalClock(){
             clearInterval(intervalId);
         }
     },[]);
-
+ 
     return (
         <div className="clock-container">
             <div className="clock">
-                <span>{time.toLocaleTimeString()}</span>
+                <span>{time.toLocaleTimeString("pt-BR",{ hour12: true })}</span>
             </div>
         </div>);
 }

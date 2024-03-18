@@ -1,5 +1,5 @@
 
-import RefComponent from "./RefComponent";
+import Stopwatch from "./Stopwatch";
 
 
 function App() {
@@ -36,9 +36,7 @@ function App() {
       {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/> } */}
 
       {/* <BButton />    
-      <ProfilePicture /> */}
-
-      {/* hook is a special function */}
+      <ProfilePicture /> */}      
 
       {/* <MyComponent /> */}
       
@@ -57,7 +55,12 @@ function App() {
 
       {/* <ComponentA /> */}
    
-      <RefComponent />
+      {/* <RefComponent /> */}
+
+      <Stopwatch />
+      <Stopwatch />
+      <Stopwatch />
+
     </>
   );
 }
