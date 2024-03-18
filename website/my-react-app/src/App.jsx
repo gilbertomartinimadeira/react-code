@@ -1,5 +1,6 @@
-import NewComponent from "./NewComponent";
-import SizeTracker from "./SizeTracker";
+
+import RefComponent from "./RefComponent";
+
 
 function App() {
 
@@ -53,6 +54,10 @@ function App() {
       {/* <NewComponent /> */}
 
       {/* <SizeTracker /> */}
+
+      {/* <ComponentA /> */}
+   
+      <RefComponent />
     </>
   );
 }
