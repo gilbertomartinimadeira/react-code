@@ -50,12 +50,6 @@ export default function Stopwatch(){
     }
     
 
-
-
-
-
-
-
     return (<div className="stopwatch">
         <div className="display">{formatTime()}</div>
         <div  className="controls">
